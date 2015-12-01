@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView android:text="@string/location"
+        android:id="@+id/lblLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/txtLocation"
+        android:layout_toRightOf="@id/lblLocation"
+        android:layout_marginLeft="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnSearch"
+        android:layout_below="@id/txtLocation"
+        android:text="@string/search"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="search" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="12pt"
+        android:text="@string/suggestions"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:id="@+id/suggestion1"
+        android:text="@string/suggestion1"
+        android:onClick="suggestion1Click"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:id="@+id/suggestion2"
+        android:text="@string/suggestion2"
+        android:onClick="suggestion2Click"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:id="@+id/suggestion3"
+        android:text="@string/suggestion3"
+        android:onClick="suggestion3Click"/>
+
+</LinearLayout>

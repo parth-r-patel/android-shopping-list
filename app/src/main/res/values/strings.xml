@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OGShopper</string>
+    <string name="recipes_name">Recipes</string>
+    <string name="ingredients_name">Ingredients</string>
+
+    <string name="recipeLookup">Recipe Lookup</string>
+    <string name="gpsLookup">GPS Store Lookup</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="title_activity_ingredients">Ingredients</string>
+    <string name="addIngredientInstruction">Tap ingredient to add to list.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="addItem">ADD</string>
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+    <string name="title_activity_maps">Showing Map</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="suggestion1">Walmart</string>
+    <string name="suggestion2">Superstore</string>
+    <string name="suggestion3">Metro</string>
+    <string name="google_maps_key">AIzaSyDL4ZtcluiSA8R-Ui_v5WM2xG16eWl7WHM</string>
+</resources>
