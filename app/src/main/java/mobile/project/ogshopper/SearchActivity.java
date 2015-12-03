@@ -1,5 +1,9 @@
 package mobile.project.ogshopper;
 
+/**
+ * Created by Riley Weagant on 11/30/2015.
+ */
+
 import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;

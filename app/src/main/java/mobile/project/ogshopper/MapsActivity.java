@@ -1,4 +1,9 @@
 package mobile.project.ogshopper;
+
+/**
+ * Created by Riley Weagant on 11/30/2015.
+ */
+
 // activity to show the google map with search criteria
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
